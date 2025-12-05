@@ -1,1 +1,124 @@
-/* Add your own styles */
+/* ===== Page Background & Font ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f7fb; /* light grey/blue */
+}
+
+/* ===== Top Banner ===== */
+header {
+    background-color: #3f4a63;   /* dark blue-grey */
+    padding: 40px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+/* ===== Main Card ===== */
+main {
+    max-width: 900px;
+    margin: -30px auto 40px auto; /* pull card up slightly under banner */
+    background-color: #ffffff;
+    padding: 30px 40px 40px 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    border-radius: 4px;
+}
+
+/* ===== Controls Row (label + input + button) ===== */
+#controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#controls label {
+    font-weight: 600;
+}
+
+#country {
+    flex: 1;
+    padding: 8px 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Lookup button */
+#lookup {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #1f9d8d;   /* teal */
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#lookup:hover {
+    background-color: #178472;
+}
+
+/* ===== Country Results heading inside #result ===== */
+#result h1 {
+    font-size: 26px;
+    margin-top: 0;
+}
+
+/* ===== Table Styling ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #f9fcff; /* very light blue */
+}
+
+th, td {
+    padding: 10px 12px;
+    border: 1px solid #e0e6f0;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background-color: #eef3fb;  /* header row */
+    font-weight: 600;
+}
+/* Existing #lookup styles - keep as is */
+#lookup {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #1f9d8d;   /* teal */
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* New: Lookup Cities button (blue) */
+#lookup-cities {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #3498db;   /* blue */
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#lookup:hover {
+    background-color: #178472;
+}
+
+#lookup-cities:hover {
+    background-color: #217dbb;
+}
